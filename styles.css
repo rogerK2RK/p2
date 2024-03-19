@@ -1,0 +1,133 @@
+body {
+    margin: 0px;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #333;
+    padding: 15px 10px;
+}
+
+.menu {
+    width: 30%;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+} 
+
+.logo {
+    width: 55px;
+    height: 55px;
+    border-radius: 45px;
+}
+
+
+.burger span {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px auto;
+    transition: all 0.3s ease;
+}
+@media (min-width:766px) {
+    .burger {
+        display: none;
+    }
+}
+@media (max-width:765px) {
+    .burger {
+        display: block;
+    }
+    nav.menu{
+        display: none;
+    }
+}
+
+.section-artiste {
+    margin: 30px 60px;
+}
+
+.section-artiste .content {
+    display: flex;
+    justify-content: space-around;
+}
+.section-artiste .content p {
+    margin-left: 45px;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: sans-serif;
+}
+h1 {
+    text-align: center;
+    margin: 0px;
+}
+
+.box-image-artiste {
+    width: 238%;
+}
+
+.picture-artiste {
+    width: 100%;
+}
+
+.box-iframe {
+    margin-right: 25px;
+}
+
+.box-contact {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    border: 1px solid black;
+    padding: 2% 5%;
+    margin-left: 25px;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: sans-serif;
+}
+
+h3 {
+    text-align: center;
+    font-size: 35px;
+    font-family: sans-serif;
+
+}
+
+form input {
+    width: 100%;
+    height: 28px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+form textarea{
+    width: 103%;
+}
+
+form input[type="submit"]{
+    background: #3c56be;
+    color: #fff;
+    width: 57%;
+}
+
+
+
+footer{
+    height: 75px;
+    justify-content: center;
+    display: flex;
+}
