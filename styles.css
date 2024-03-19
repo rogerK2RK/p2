@@ -51,8 +51,69 @@ header {
     .burger {
         display: block;
     }
+
     nav.menu{
         display: none;
+    }
+
+    .box-contact {
+        display: flex;
+        flex-wrap: wrap-reverse ! important;
+        justify-content: center;
+    }
+
+    .section-artiste .content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .section-artiste .content p {
+        text-align: center;
+        margin-left: 0px ! important;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    h1 {
+        color: #fff;
+        font-size: 41px ! important;
+        position: absolute;
+        font-family: serif;
+        top: 36% ! important;
+        left: 3% ! important;
+        z-index: 2;
+        text-align: center ! important;
+    }
+
+    .slogan {
+        color: #fff;
+        font-size: 15px ! important;
+        position: absolute;
+        font-family: serif;
+        top: 55% ! important;
+        text-align: center;
+        left: 16% ! important;
+        z-index: 2;
+    }
+
+    .next {
+        right: -22px ! important;
+    }
+
+    iframe {
+        width: 100% ! important;
+    }
+
+    .box-iframe {
+        margin-right: 0px ! important;
+    }
+    form {
+        margin-bottom: 25px !important;
+        margin-left: 0px !important ;
     }
 }
 
